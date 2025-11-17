@@ -5,11 +5,3 @@ compatibility_date = "2023-10-01"
 [vars]
 BOT_TOKEN = "8367127956:AAHAR6zf2m4_hNJOw4cesM_3ExsNacvWxUU"
 PROXY_DOMAIN = "your-worker-domain.workers.dev"
-
-# تنظیمات برای عملکرد بهتر
-[limits]
-cpu_ms = 10000
-
-# برای فایل‌های بزرگ
-[placement]
-mode = "smart"
