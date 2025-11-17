@@ -1,0 +1,14 @@
+{
+  "name": "telegram-proxy-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for creating proxy links on Cloudflare Workers",
+  "main": "src/bot.js",
+  "scripts": {
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
